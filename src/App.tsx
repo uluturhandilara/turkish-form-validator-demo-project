@@ -56,8 +56,8 @@ function App() {
                 onBlur={() => handleBlur("phoneNumber")}
                 error={errors.phoneNumber}
                 touched={touched.phoneNumber}
-                placeholder="5551234567"
-                maxLength={10}
+                placeholder="05551234567"
+                maxLength={11}
                 formatValue={(value) => value.replace(/\D/g, "")}
               />
 
